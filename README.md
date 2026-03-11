@@ -1,14 +1,17 @@
 # Flicker Component
-Flicker component for Unreal Engine with multiplayer support, RGB color cycling, and custom sequences.
+Advanced flicker component for Unreal Engine with multiplayer support, RGB color cycling, custom sequences, and keyframe-based timeline system. Features per-light settings, sound system, and performance optimization.
 
 ## FEATURES
-- ✓ **Multiplayer Ready** - Server-authoritative, syncs across all clients
-- ✓ **RGB Color Cycling** - Smooth color transitions during flicker
-- ✓ **Custom Sequences** - Create any flicker pattern (7 times, alarm sequences, etc.)
-- ✓ **Per-Light Settings** - Control each light individually with tags
-- ✓ **Sound System** - Built-in audio with distance-based playback
-- ✓ **Performance Optimized** - Adjustable tick rate (10-120 fps)
-- ✓ **Full Blueprint Support** - Easy to use, no coding required
+- **Multiplayer Ready** - Server-authoritative, syncs across all clients  
+- **RGB Color Cycling** - Smooth color transitions during flicker  
+- **Custom Sequences** - Create any flicker pattern (7 times, alarm sequences, etc.)  
+- **Timeline System** - Advanced keyframe-based animation with curve support  
+- **Per-Light Settings** - Control each light individually with tags  
+- **Sound System** - Built-in audio with distance-based playback  
+- **Performance Optimized** - Adjustable tick rate (10-120 fps)  
+- **Full Blueprint Support** - Easy to use, no coding required  
+- **State Restoration** - Automatically returns to previous state  
+- **Multiple Easing Functions** - Linear, Sinusoidal, Ease In/Out, etc.  
 
 ## REQUIREMENTS
 - Unreal Engine 5.0+
@@ -17,8 +20,8 @@ Flicker component for Unreal Engine with multiplayer support, RGB color cycling,
 
 ## QUICK START
 1. **Install the plugin**
-   - Copy `HCSFlickerComponent` folder to your project's `Plugins` directory
-   - Or install via Unreal Engine Marketplace (coming soon)
+   - Copy `FlickerComponent` folder to your project's `Plugins` directory
+   - Or install via Unreal Engine Marketplace
 2. **Enable the plugin**
    - Open your project
    - Go to `Edit → Plugins`
